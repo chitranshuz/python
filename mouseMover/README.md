@@ -1,3 +1,5 @@
+**mousemover_v2.py** moves one pixel in every 120 second, so it will not disturb even if you are working and script is running.
+
 Moves mouse on you screen automatically preventing the screen from sleeping when you are away.
 
 Output the current position:
