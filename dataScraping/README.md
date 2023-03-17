@@ -23,5 +23,4 @@ This code scraps the data from Hacker News, it filters out only those URLs which
 
 ![image](https://user-images.githubusercontent.com/43988314/225960067-93614a4c-2146-4656-8814-6634ce39c2ba.png)
 
-
-
+![image](https://user-images.githubusercontent.com/43988314/225961279-469c5a8b-9155-4736-b279-d7ae53488fd6.png)
