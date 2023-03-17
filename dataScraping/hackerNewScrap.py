@@ -1,3 +1,7 @@
+# fetching data from the CSS selector 
+# using class or some other attribute to specify what we want 
+# then manipulating the data as per need using python in built or bs4 modules
+
 import requests
 from bs4 import BeautifulSoup
 import pprint
@@ -12,8 +16,9 @@ score = http_page.select('.subtext')
 
 
 def create_custom_hn(links, score):
-    hn = {}
+    hn = {} # store the list in dictionary
     for idx, items in enumerate(links):
+        # checking if points are there, as recently uploaded links might not have likes yet
         if bool(score[idx].select('.score')):
 
             # URLs and name
